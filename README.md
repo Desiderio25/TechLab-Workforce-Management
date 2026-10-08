@@ -1,7 +1,7 @@
 ---
 lab:
-    title: TechLab: Workforce Management
-    description:
+    title: 'TechLab: Workforce Management'
+    description: 'Configure Dynamics 365 Contact Center Workforce Management, including agent skills, forecasting, capacity plans, shift scheduling, and self-service requests.'
     level: 400
     duration: 120 minutes
     islab: true
@@ -22,9 +22,10 @@ lab:
 @lab.ActivityGroup(initialsurvey)
 
 ===
->[!Alert] Before proceeding, you must complete the prerequisite lab, [TechLab: Sales and Service MDX Set Up](https://csu.learnondemand.net/Course/49687 "TechLab: Sales and Service MDX Set Up"). This lab depends on configuration completed in that prerequisite. If you have not already completed it, you will not be able to complete the tasks in this lab. If you have already begun this lab, please exit now, complete the prerequisite lab, and then return to this lab afterward.
+> [!IMPORTANT] 
+> Before proceeding, you must complete the prerequisite lab, [TechLab: Sales and Service MDX Set Up](https://csu.learnondemand.net/Course/49687 "TechLab: Sales and Service MDX Set Up"). This lab depends on configuration completed in that prerequisite. If you have not already completed it, you will not be able to complete the tasks in this lab. If you have already begun this lab, please exit now, complete the prerequisite lab, and then return to this lab afterward.
 
-##Where does this fit-in as part of an end-to-end demo?
+## Where does this fit-in as part of an end-to-end demo?
 
 ![image-57.png](Media/image-57.png)
 
@@ -104,7 +105,8 @@ Estimated time to complete this workshop: **75-90 minutes**
 
 ## Prerequisites 
 
->[!Alert] You must complete the required steps in the **TechLab: Sales and Service MDX Set Up** lab before you start this lab. This ensures that your environment is configured properly and includes all resources that are required to support this lab.
+> [!WARNING] 
+> You must complete the required steps in the **TechLab: Sales and Service MDX Set Up** lab before you start this lab. This ensures that your environment is configured properly and includes all resources that are required to support this lab.
 
 
 ===
@@ -129,17 +131,17 @@ In this task, you turn on the Workforce Management features required for forecas
 - Workforce Management features are enabled and available for configuration and use across forecasting, planning, scheduling, and self-service.
 
 
-###Key steps
+### Key steps
 
-1. In Edge, go to Dynamics 365. The URL should resemble **https://org6e56877e.crm.dynamics.com/**.
+1. In your web browser, go to **Dynamics 365**. The URL should resemble **https://org6e56877e.crm.dynamics.com/**.
 
 1. If prompted, sign in by using the administrator credentials for your demo environment.
 
-1. [ ] On the **Published Apps** page, select **Copilot Service admin center**.
+1. On the **Published Apps** page, select **Copilot Service admin center**.
 
 	![x9vhvixu.jpg](Media/x9vhvixu.jpg)
 
-1. In the left pane, In the **Operations** section, select **Workforce management**.
+1. In the left navigation pane, in the **Operations** section, select **Workforce management**.
 
 	![avefly2f.jpg](Media/avefly2f.jpg)
 
@@ -151,7 +153,7 @@ In this task, you turn on the Workforce Management features required for forecas
 
 	![hhxyafuw.jpg](Media/hhxyafuw.jpg)
 
-1. On the command bar, select **Save and Close**.
+1. On the command bar, select **Save & Close**.
 
 1. In the **Forecasting** section, turn on the following feature:
     
@@ -161,12 +163,10 @@ In this task, you turn on the Workforce Management features required for forecas
     
 1. In the **Shift and schedule management** section, turn on the following features:
 
-    - Capacity planning
     - Schedule management
     - Shift-based routing
 
 	![0pd0hsec.jpg](Media/0pd0hsec.jpg)
-
 
 1. In the **Time management** section, turn on the following features:
 
@@ -192,10 +192,10 @@ In this task, you assign managers to agents so requests such as time off, swaps,
 
 Managers are assigned to the required users so shift and time-off workflows can be submitted and approved.
 
-###Key steps
+### Key steps
 
 
-1. In **Copilot Service admin center**, in the left pane, select **Workforce Management**.
+1. In **Copilot Service admin center**, in the left navigation pane, select **Workforce Management**.
 
 	![w2sbkbp6.jpg](Media/w2sbkbp6.jpg)
 	![gwh0g66x.jpg](Media/gwh0g66x.jpg)
@@ -220,11 +220,11 @@ Managers are assigned to the required users so shift and time-off workflows can 
 
     ![qd43z114.jpg](Media/qd43z114.jpg)
 
-1. On the command bar, select **Save and Close**.
+1. On the command bar, select **Save & Close**.
 
 	![jhjy0mjf.jpg](Media/jhjy0mjf.jpg)
 
-1. In the list of agents, select the **Alex Baker** record. On the **Organization Information** tile, in the **Manager** field, set the value to  your administrative account.
+1. In the list of agents, select the **Alex Baker** record. On the **Organization Information** tile, in the **Manager** field, set the value to your administrative account.
 
 	![799jcvv8.jpg](Media/799jcvv8.jpg)
 
@@ -256,26 +256,25 @@ In this task, you'll create the skill framework (for example, Commercial, Reside
 
 The required skills are created and available to assign to customer service representatives.
 
-###Key steps
+### Key steps
 
-1. In **Copilot Service admin center**, in the left pane, select **Workforce Management**.
+1. In **Copilot Service admin center**, in the left navigation pane, select **Workforce Management**.
 
 	![w2sbkbp6.jpg](Media/w2sbkbp6.jpg)
 	![gwh0g66x.jpg](Media/gwh0g66x.jpg)
 
 1. In **User management**, select **View.**
 
-1. In **Skills hub**, select **Manage**.
+1. In **Skills**, select **Manage**.
 
-1. On the **Skills** page, select **Create**.
+1. In the **Active Characteristics** view, select **+ New**.
 
-1. Configure the **Characteristic** as follows:
+1. In the **New Characteristic** form, configure the required fields as follows:
 
-     - **Skill Name:** Commercial
-     - **Skill Type:** Skill
-   
+    - **Skill type:** Skill
+    - **Skill name:** Commercial
 
-1. Select **Save and Close**.
+1. Select **Save & Close**.
 
 1. Repeat the steps above to add the following skills:
 
@@ -290,7 +289,6 @@ The required skills are created and available to assign to customer service repr
 1. Your completed skills should resemble the image below (you may have more skills in the list if they existed from before):
 
     ![image-15.png](Media/image-15.png)
-
 
 ===
 
@@ -308,7 +306,7 @@ In this task, you'll assign skills and proficiency levels to agents so the syste
 
 - Agents have the required skills and proficiency levels assigned to support skill-based planning and scheduling.
 
-1. In **Copilot Service admin center**, in the left pane, select **Workforce Management**.
+1. In **Copilot Service admin center**, in the left navigation pane, select **Workforce Management**.
 
 	![w2sbkbp6.jpg](Media/w2sbkbp6.jpg)
 	![gwh0g66x.jpg](Media/gwh0g66x.jpg)
@@ -327,9 +325,8 @@ In this task, you'll assign skills and proficiency levels to agents so the syste
 
 1. In the **Select proficiency** field, select **Excellent**. Then, in the **Skills** field, select **Commercial** and **Warranty**.  
 
-    >[!Alert] You must select the proficiency level before selecting the skill.
-
-	
+   > [!WARNING]
+   > You must select the proficiency level before selecting the skill.
 
 1. Select **Add to all**.
 
@@ -353,11 +350,11 @@ In this task, you'll assign skills and proficiency levels to agents so the syste
 
     | Rep | Fair | Very Good | Excellent |
     | -------- | -------- | -------- | -------- |
-    | Alan Steiner | Commercial | Warranty, Residential | Repair, subscriptions |
+    | Alan Steiner | Commercial | Warranty, Residential | Repair, Subscriptions |
     | Alex Baker | Warranty | Residential | Commercial, Repair, Subscriptions |
-    | Alica Thomber | Repair, Residential | Commercial, Subscriptions, Warranty |          |
+    | Alicia Thomber | Repair, Residential | Commercial, Subscriptions, Warranty |          |
     | Amy Alberts | Subscriptions | Commercial, Repair | Warranty, Residential |
-    | Anita Montero | Commercial | Warranty, Residential | Repair, subscriptions |
+    | Anita Montero | Commercial | Warranty, Residential | Repair, Subscriptions |
     | Benjamin Mcphee | Subscriptions | Commercial, Repair | Warranty, Residential |
     | David Mallory | Warranty | Residential | Commercial, Repair, Subscriptions |
     | Molly Clark | Repair, Residential | Commercial, Subscriptions, Warranty |          |
@@ -530,16 +527,16 @@ In this task, you'll create time-off request types (Vacation, PTO, Unpaid, Sick 
 ### Success criteria
 - Time-off request types are created and available for agents to use in self-service workflows.
 
-####Key steps
+#### Key steps
 
-1. In **Copilot Service admin center**, in the left pane, select **Workforce Management**.
+1. In **Copilot Service admin center**, in the left navigation pane, select **Workforce Management**.
 
 	![w2sbkbp6.jpg](Media/w2sbkbp6.jpg)
 	![gwh0g66x.jpg](Media/gwh0g66x.jpg)
 
-1. In the **Time management** section, select **View**.
+1. Locate the **Time management** section.
 
-1. In the **Time management** group, locate **Time-off request types** and select **Manage**.
+1. In the **Time management** section, locate **Time-off request types** and select **Manage**.
 
 	![hyny16pw.jpg](Media/hyny16pw.jpg)
 	
@@ -556,9 +553,10 @@ In this task, you'll create time-off request types (Vacation, PTO, Unpaid, Sick 
 
     ![nmznnfjg.jpg](Media/nmznnfjg.jpg)
 
-1. On the command bar, select **Save and Close**.
+1. On the command bar, select **Save & Close**.
 
 	![5kv52wjv.jpg](Media/5kv52wjv.jpg)
+
 1. Repeat Steps 4 through 6 to add the following time-off types:
 
 
@@ -581,11 +579,11 @@ In this task, you'll create a queue and configure shift-based routing rules so i
 ### Success criteria
 A queue and shift-based routing ruleset are configured so work can be routed to scheduled, qualified, available agents.
 
-###Key steps
+### Key steps
 
 1. Open **Copilot Service admin center**.
 
-1. In the left pane, in the **Customer support** section, select **Queues**.
+1. In the left navigation pane, in the **Customer support** section, select **Queues**.
 
 	![ftvasj8q.jpg](Media/ftvasj8q.jpg)
 	
@@ -603,11 +601,11 @@ A queue and shift-based routing ruleset are configured so work can be routed to 
     - **Type:** Messaging
     - **Queue Priority:** 10
 
-	>[!knowledge] Unified routing prioritizes a queue with a smaller number over a queue with a larger number.
+	> [!TIP] 
+    > Unified routing prioritizes a queue with a smaller number over a queue with a larger number.
 
 	![wyvi6yml.jpg](Media/wyvi6yml.jpg)
 	
-
 1. On the **Shift Based Routing** page, on the **Add Users to this Queue** tile, select **+ Add users**.
 
     ![kqv5yb5z.jpg](Media/kqv5yb5z.jpg)
@@ -626,7 +624,6 @@ A queue and shift-based routing ruleset are configured so work can be routed to 
     - Renee Lo
     - Spencer Low
 
-    
 1. On the **Shift Based Routing** page, on the **Assignment method** tile, select **See more**.
 
 	![pzz267hl.jpg](Media/pzz267hl.jpg)
@@ -639,17 +636,17 @@ A queue and shift-based routing ruleset are configured so work can be routed to 
 
     ![07isf5zo.jpg](Media/07isf5zo.jpg)
 
-1. On the **Assignment rulesets** tile, select **Create Ruleset**.
+1. On the **Assignment rulesets** tile, select **+ Create Ruleset**.
 
 	![t5jroa0e.jpg](Media/t5jroa0e.jpg)
 
 1. Select **+ New Ruleset**.
 
-1. In the **Ruleset** name field, enter `Route reps` and then select **Create**.
+1. In the **Ruleset name** field, enter `Route reps` and then select **Create**.
 
     ![uxdhjrjf.jpg](Media/uxdhjrjf.jpg)
 
-1. On the **Decision List** tile, select **Create Rule**.
+1. On the **Decision List** tile, select **+ Create Rule**.
 
 	![xbhjle7t.jpg](Media/xbhjle7t.jpg)
 
@@ -661,15 +658,14 @@ A queue and shift-based routing ruleset are configured so work can be routed to 
 
     - **Presence status** > **Equals** > **Dynamic Match** > **Conversation** . **Workstream** . **Allowed Presences**
 
-    ![image-32.png](Media/image-32.png)
-
     - **Available capacity** **> Is greater than** > **Dynamic Match** > **Conversation** . **Workstream** . **Capacity**
-
-    ![image-58.png](Media/image-58.png)
 
     - **Calendar schedule** > **is working**
 
-    >[!Note] Remove any additional conditions (ex. User Languages - User Regions)
+    ![image-32.png](Media/image-32.png)
+
+   > [!Note] 
+   > Remove any additional conditions (ex. User Languages - User Regions)
 
 1. In the **Order by** field, select **Least Active**.
 
@@ -972,18 +968,19 @@ In this task, you'll create long-term and short-term capacity plans for both con
 ### Success criteria
 - Long-term and short-term capacity plans for conversations and cases are created and saved using the correct forecast scenarios and planning parameters.
 
-###Key steps
+### Key steps
 
->[!Alert] The capacity plans that you create here rely on the forecasts that you created in the prerequisites lab. You will not be able to select entries for the **Forecast Scenario** field if the forecasts were not created.
+> [!WARNING]
+> The capacity plans that you create here rely on the forecasts that you created in the prerequisites lab. You will not be able to select entries for the **Forecast Scenario** field if the forecasts were not created.
 
 ---
 
-####01: Create a long-term capacity plan for conversations
+#### 01: Create a long-term capacity plan for conversations
 1. Open the **Copilot Service workspace** app (not **Copilot Service admin center**).
 
 	![knkaqjjd.jpg](Media/knkaqjjd.jpg)
 
-1. In the left pane, in the **Workforce Management** section, select **Capacity Planning**.
+1. In the left navigation pane, in the **Workforce Management** section, select **Capacity Planning**.
 
 	![pyj8qnyn.jpg](Media/pyj8qnyn.jpg)
 
@@ -993,48 +990,52 @@ In this task, you'll create long-term and short-term capacity plans for both con
 
 1. Configure the plan as follows:
 
-    - **Details** tile
+    - **Details** tile:
 
         - **Name:** Capacity Long term - Conversation
         - **Forecast Scenario:** Sept Long Term - Conversation
         - **Interval:** Long term
 
-    - **Forecast run schedule** tile
+    - **Forecast run schedule** tile:
 
         - **Auto-extension:** Yes
         - **Day of the week:** Sunday
         - **Recurrence time slot:** 12 AM - 3 AM
         - **Recurrence time zone:** Select your time zone
 
+    > [!NOTE] 
+    > In some environments, the capacity plan form doesn't include the Forecast run schedule tile. If it isn't available, make sure **Auto refresh after forecast** is set to **Yes** on the **Details** tile and continue with the lab.
+
     ![image-34.png](Media/image-34.png)
 
-    - **Configuration parameters** tile
+    - **Configuration parameters** tile:
 
         - **Service level (%):** 80
-        - **Shrinkage:** 20
-        - **Target answer time:** 60
+        - **Shrinkage (%):** 20
+        - **Target answer time (seconds):** 60
         - **Concurrency:** 1
 
     ![image-51.png](Media/image-51.png)
 
-1. Select **Save and Close**.
+1. Select **Save & Close**.
 
 ---
 
-####02: Create a long-term capacity plan for cases
+#### 02: Create a long-term capacity plan for cases
+
 1. Select **+ New** and then select **Long-Term Capacity Plan**.
 
 	![p10r5zae.jpg](Media/p10r5zae.jpg)
 
 1. Configure the plan as follows:
 
-    - **Details** tile
+    - **Details** tile:
 
         - **Name:** Capacity Long term - Case
         - **Forecast Scenario:** Sept Long-term - Case
         - **Interval:** Long term
 
-    - **Forecast run schedule** tile
+    - **Forecast run schedule** tile:
 
         - **Auto-extension:** Yes
         - **Day of the week:** Sunday
@@ -1043,32 +1044,32 @@ In this task, you'll create long-term and short-term capacity plans for both con
 
     	![image-69.png](Media/image-69.png)
 
-    - **Configuration parameters** tile
+    - **Configuration parameters** tile:
 
         - **Service level (%):** 80
-        - **Shrinkage:** 20
-        - **Target answer time:** 60
+        - **Shrinkage (%):** 20
+        - **Target answer time (seconds):** 60
         - **Concurrency:** 1
 
     	![image-51.png](Media/image-51.png)
 
-1. Select **Save and Close**.
+1. Select **Save & Close**.
 
 ---
 
-####03: Create a short-term capacity plan for conversations
+#### 03: Create a short-term capacity plan for conversations
 
 1. Select **+ New** and then select **Short-Term Capacity Plan**.
 
 1. Configure the plan as follows:
 
-    - **Details** tile
+    - **Details** tile:
 
         - **Name:** Capacity Short term - Conversation
         - **Forecast Scenario**: Sept Short Term - Conversation
         - **Interval:** Short term
 
-    - **Forecast run schedule** tile
+    - **Forecast run schedule** tile:
 
         - **Auto-extension:** Yes
         - **Recurrence time slot:** 12 AM - 3 AM
@@ -1076,44 +1077,45 @@ In this task, you'll create long-term and short-term capacity plans for both con
 
     ![image-39.png](Media/image-39.png)
 
-    - **Configuration parameters** tile
+    - **Configuration parameters** tile:
 
         - **Service level (%):** 80
-        - **Shrinkage:** 20
-        - **Target answer time:** 60
+        - **Shrinkage (%):** 20
+        - **Target answer time (seconds):** 60
         - **Concurrency:** 1
 
     ![image-51.png](Media/image-51.png)
 
-1. Select **Save and Close**.
+1. Select **Save & Close**.
 
 ---
 
-####04: Create a short-term capacity plan for cases
+#### 04: Create a short-term capacity plan for cases
+
 1. Select **+ New** and then select **Short-Term Capacity Plan**.
 
 1. Configure the plan as follows:
 
-    - **Details** tile
+    - **Details** tile:
 
         - **Name:** Capacity Short term - Case
         - **Forecast Scenario**: Sept Short Term - Case
         - **Interval:** Short Term
 
-    - **Forecast run schedule** tile
+    - **Forecast run schedule** tile:
 
         - **Auto-extension:** Yes
         - **Recurrence time slot:** 12 AM - 3 AM
         - **Recurrence time zone:** Select your time zone
 
-    - **Configuration parameters** tile
+    - **Configuration parameters** tile:
 
         - **Service level (%):** 80
-        - **Shrinkage:** 20
-        - **Target answer time:** 60
+        - **Shrinkage (%):** 20
+        - **Target answer time (seconds):** 60
         - **Concurrency:** 1
 
-    - Select **Save and Close**.
+    - Select **Save & Close**.
 
 1. Your completed capacity plans should resemble the image below:
 
@@ -1139,24 +1141,24 @@ In this task, you'll create a shift plan tied to a capacity plan, define the dat
 ### Success criteria
 - A shift plan is created and saved with the correct date range, hours, capacity plan, and activity itinerary.
 
-###Key steps
+### Key steps
+
 1. Open the **Copilot Service workspace** app (not **Copilot Service admin center**).
 
 	![knkaqjjd.jpg](Media/knkaqjjd.jpg)
 
-1. In the left pane, in the **Workforce Management** section, select **Shift Planning**.
+1. In the left navigation pane, in the **Workforce Management** section, select **Shift Planning**.
 
 	![ejuc0pae.jpg](Media/ejuc0pae.jpg)
 
-
-
-1. On the command bar, select **+ New** and then select **Schedule with capacity plan.**
+1. On the command bar, select **+ New** and then select **Schedule with capacity plan**.
 
 	![6xsmnaen.jpg](Media/6xsmnaen.jpg)
 
 1. Configure the **Plan Details** tile by using the following information:
 
-	>[!alert]Once you save the shift plan, you can't change the start time, end time, or time zone.
+   > [!WARNING]
+   > Once you save the shift plan, you can't change the start time, end time, or time zone.
 
     - **Shift Plan Name**: "Current Month Name" Shifts - Ex. Sept Shifts
     - **Start Date**: 1st day of the current month - Ex. 9/1/2025
@@ -1169,21 +1171,35 @@ In this task, you'll create a shift plan tied to a capacity plan, define the dat
 
     ![image-22.png](Media/image-22.png)
 
+   > [!NOTE]
+   > A capacity plan runs only after its linked forecast scenario creates a new snapshot. If the forecast scenario was completed before you created the capacity plan, the capacity plan stays in **Draft**. When you try to save a shift plan that uses it, you might see this error:
+   >
+   > *Validation failed. The linked Capacity Plan must be in the Completed state before this Shift Plan can be scheduled.*
+   >
+   > If this happens:
+   >
+   > 1. Open the linked capacity plan, and then select the forecast scenario in the **Forecast Scenario** field.
+   > 2. On the command bar, select **Create New Snapshot**.
+   > 3. Wait for the snapshot to finish. You can track it in **View Job History**.
+   > 4. Go back to the capacity plan and select **Refresh** until **Current Status** shows **Completed**.
+   > 5. Return to the shift plan and select **Save**.
+
 1. Select **Save**.
 
 1. On the **Activity Itinerary** panel in the middle of the screen, select **Add Activity**.
 
-1. From the menu that appears, select **Chat Customer Support 1 (hr) 30 (min)**.
+1. From the menu that appears, select **Chat Customer Support (01hr 30m)**.
 
 1. Repeat Steps 6 and 7 to add the following activities:
 
-	>[!alert] It is important that you add the activities in the order listed.
+	>[!WARNING]
+    > It is important that you add the activities in the order listed.
 
-    - Email Customer Support 1 (hr) 30 (min)
-    - Voice Customer Support 1 (hr) 30 (min)
-    - Break 30 (min)
-    - Training 30 (min)
-    - Break	30 (min)
+    - Email Customer Support (01hr 30m)
+    - Voice Customer Support (01hr 30m)
+    - Break (30m)
+    - Training (30m)
+    - Break	(30m)
 
     ![image-52.png](Media/image-52.png)
 
