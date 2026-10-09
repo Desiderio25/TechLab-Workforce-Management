@@ -10,7 +10,7 @@ lab:
 
 @lab.Title
 
-**Please enter your own Microsoft alias (without the @microsoft.com) in the field below before starting the lab**. This information is required to correctly associate your activity with your learner record and ensure your completion is accurately captured and reported. For data integrity and compliance reasons, learners may only enter their own alias.   After completing the lab, please allow up to 5 business days for all reporting systems to fully reflect your completion.
+**Please enter your own Microsoft alias (without @microsoft.com) in the field below before starting the lab**. This information is required to correctly associate your activity with your learner record and ensure your completion is accurately captured and reported. For data integrity and compliance reasons, learners may only enter their own alias. After completing the lab, please allow up to 5 business days for all reporting systems to fully reflect your completion.
 
 @lab.ActivityGroup(aliascapture)
 
@@ -25,15 +25,15 @@ lab:
 > [!IMPORTANT] 
 > Before proceeding, you must complete the prerequisite lab, [TechLab: Sales and Service MDX Set Up](https://csu.learnondemand.net/Course/49687 "TechLab: Sales and Service MDX Set Up"). This lab depends on configuration completed in that prerequisite. If you have not already completed it, you will not be able to complete the tasks in this lab. If you have already begun this lab, please exit now, complete the prerequisite lab, and then return to this lab afterward.
 
-## Where does this fit-in as part of an end-to-end demo?
+## Where does this fit in as part of an end-to-end demo?
 
 ![image-57.png](Media/image-57.png)
 
 ## Business context
 
-Contoso Coffee stands as one of the leading producers of premium coffee machines in the United States, boasting an extensive clientele that surpasses 5 million with $1 Billion revenue. This customer base is provided with a variety of sophisticated coffee machines, in addition to options for ordering coffee supplies, service agreements, and extended warranties. Contoso caters to both business-to-business (coffee shops) and business-to-consumer (individual buyers) markets.
+Contoso Coffee stands as one of the leading producers of premium coffee machines in the United States, boasting an extensive clientele that surpasses 5 million customers and revenue of $1 billion. This customer base is provided with a variety of sophisticated coffee machines, in addition to options for ordering coffee supplies, service agreements, and extended warranties. Contoso caters to both business-to-business (coffee shops) and business-to-consumer (individual buyers) markets.
 
-During Contoso Coffee's seasonal product launch, a surge in customer inquiries about new flavors, water tank maintenance, and warranties exposed major flaws in their workforce management systems; with over 2,000 agents scheduled manually using ServiceNow and Genesys Engage, mismatches between staffing and demand led to long wait times, missed shifts, and compliance risks, while the lack of predictive analytics and real-time scheduling tools caused overstaffing during slow periods and understaffing during peak hours, frustrating customers and burning out agents-all highlighting the urgent need for AI-driven solutions to streamline scheduling, shift swaps, and capacity planning.
+During Contoso Coffee's seasonal product launch, a surge in customer inquiries about new flavors, water tank maintenance, and warranties exposed major flaws in its workforce management systems. With over 2,000 agents scheduled manually using ServiceNow and Genesys Engage, mismatches between staffing and demand led to long wait times, missed shifts, and compliance risks, while the lack of predictive analytics and real-time scheduling tools caused overstaffing during slow periods and understaffing during peak hours, frustrating customers and burning out agents. These issues highlight the urgent need for AI-driven solutions to streamline scheduling, shift swaps, and capacity planning.
 
 ## Challenges
 
@@ -53,7 +53,7 @@ Contoso is experiencing significant challenges in managing its global customer s
 
 ## Why are we talking to Contoso?
 
-Their current approach relies very heavily on manual processes or overly complicated scheduling tools.  The lack of dynamic data makes it difficult to respond quickly to changing customer demand.  They are looking to move away from their current system in ServiceNow to a solution that will help them to modernize its workforce management capabilities and unify its global support operations under a single, intelligent platform.
+Contoso's current approach relies very heavily on manual processes or overly complicated scheduling tools. The lack of dynamic data makes it difficult to respond quickly to changing customer demand. Contoso is looking to move away from its current system in ServiceNow to a solution that will help it modernize its workforce management capabilities and unify its global support operations under a single, intelligent platform.
 
 
 ## Desired outcome breakdown
@@ -286,7 +286,7 @@ The required skills are created and available to assign to customer service repr
     | Repair    | Skill |
 
 
-1. Your completed skills should resemble the image below (you may have more skills in the list if they existed from before):
+1. Your completed skills should resemble the image below (you may have more skills in the list if they already existed):
 
     ![image-15.png](Media/image-15.png)
 
@@ -296,7 +296,7 @@ The required skills are created and available to assign to customer service repr
 
 ### Introduction
 
-To reduce long wait times and avoid overstaffing or understaffing, Contoso needs schedules that reflect who can handle which types of customer inquiries-and how well.
+To reduce long wait times and avoid overstaffing or understaffing, Contoso needs schedules that reflect who can handle which types of customer inquiries and how well.
 
 ### Description
 
@@ -346,7 +346,7 @@ In this task, you'll assign skills and proficiency levels to agents so the syste
 
 1. Select the **Save** button.
 
-1. Repeat the Steps to define skills for additional users as follows:
+1. Repeat the steps to define skills for additional users as follows:
 
     | Rep | Fair | Very Good | Excellent |
     | -------- | -------- | -------- | -------- |
@@ -388,7 +388,7 @@ In this task, you create bookable resources for agents and define standard worki
 
 1. Change the **View** from **Enabled Users** to **Agents**.
 
-1. Select **your admin user account** (or Equivalent) to open, select the **Omnichannel** tab.
+1. Select **your admin user account** (or equivalent) to open it, and then select the **Omnichannel** tab.
 
     ![image-16.png](Media/image-16.png)
 
@@ -408,7 +408,7 @@ In this task, you create bookable resources for agents and define standard worki
 
     ![image-64.png](Media/image-64.png)
 
-1. Select the **Save and Close** button (If you were creating a new record).
+1. Select the **Save and Close** button (if you were creating a new record).
 
 1. Select the **Show Work Hours** button.
 
@@ -420,7 +420,7 @@ In this task, you create bookable resources for agents and define standard worki
 
 1. Select **New**, then **Working Hours**, to add new working hours.
 
-1. Configure the working hours as follows
+1. Configure the working hours as follows:
 
     - **Repeat**: Every Week
 
@@ -440,7 +440,7 @@ In this task, you create bookable resources for agents and define standard worki
 
 1. Select the **Save and Close** button.
 
-    Repeat steps 5 through 13 to create bookable resource records and define working hours for following users.
+    Repeat steps 5 through 13 to create bookable resource records and define working hours for the following users.
 
     - Alan Steiner
 
@@ -470,7 +470,7 @@ In this task, you create bookable resources for agents and define standard worki
 ## Task 05: Create Shift Activity types
 
 ### Introduction
-Contoso needs schedules that reflect real work: time on chat, email, voice, training, and breaks-so coverage and adherence can be measured and improved.
+Contoso needs schedules that reflect real work: time on chat, email, voice, training, and breaks, so coverage and adherence can be measured and improved.
 
 ### Description
 In this task, you create standardized shift activity types with durations and colors that will be used to build shift plans and visualize schedules.
@@ -478,9 +478,9 @@ In this task, you create standardized shift activity types with durations and co
 ### Success criteria
 - Shift activity types are created with the required durations and are available to add to shift plans.
 
-If they do not, please change them. Otherwise skip to Task 7.
+If they do not, please change them. Otherwise, skip to Task 7.
 
-1. If necessary, open the **Copilot Service admin center** app
+1. If necessary, open the **Copilot Service admin center** app.
 
 1. Using the navigation on the left, under **Workforce management**, select **Manage** next to **Shift activity Types.**
 
@@ -504,7 +504,7 @@ If they do not, please change them. Otherwise skip to Task 7.
 
 1. Select the **Save and Close** button.
 
-1. Repeat the above steps above to add the following **Shift Activity Types**:
+1. Repeat the steps above to add the following **Shift Activity Types**:
 
 
     | Name  | Description  | Duration  | Color  | Dark Color |
@@ -743,7 +743,7 @@ In this task, you'll create external forecast data records for intraday and dail
 
 1. Select the **Daily Data-20250911** file that was included as part of your materials.
 
-1. Once uploaded, select that **Save** button. 
+1. Once uploaded, select the **Save** button.
 
     >[!Alert] You'll not receive any confirmation that the file was saved. Once you leave the record and return to the External Forecasts screen, you'll be able to view it.
 
@@ -764,9 +764,10 @@ In this task, you'll create short-term and long-term forecast scenarios using th
 
 >[!Note] If you did this as part of your pre-work, verify that everything looks as defined below.
 
->[!Alert] The instructions indicate that you should name everything Sept. If you are doing this lab in any other month ex. October or November, change the names to the correct month.
+> [!WARNING]
+> The instructions indicate that you should name everything Sept. If you are doing this lab in any other month, for example, October or November, change the names to the correct month.
 
-1. In the **Copilot Service Workspace** application interface (not the Copilot Service admin center), open the menu by selecting the hamburger menu, navigate to **Workforce Management** then to **Forecasting**
+1. In the **Copilot Service Workspace** application interface (not the Copilot Service admin center), open the menu by selecting the hamburger menu, and then navigate to **Workforce Management** and **Forecasting**.
 
 1. Select **+ New**.
 
@@ -898,7 +899,7 @@ Next, you're going to configure the same thing, only this time, for the case ent
 
 1. Close the **Sept - Short Term - Case** tab.
 
-#### Lastly, we are going to configure the same thing, but this time for Long term forecasts.
+#### Lastly, we are going to configure the same thing, but this time for long-term forecasts.
 
 1. Select **+ New**, then **Long term forecast scenario**.
 
@@ -971,7 +972,7 @@ In this task, you'll create long-term and short-term capacity plans for both con
 ### Key steps
 
 > [!WARNING]
-> The capacity plans that you create here rely on the forecasts that you created in the prerequisites lab. You will not be able to select entries for the **Forecast Scenario** field if the forecasts were not created.
+> The capacity plans that you create here rely on the forecasts that you created in the prerequisite lab. You will not be able to select entries for the **Forecast Scenario** field if the forecasts were not created.
 
 ---
 
@@ -1207,7 +1208,15 @@ In this task, you'll create a shift plan tied to a capacity plan, define the dat
 
     ![image-68.png](Media/image-68.png)
 
-1. Change the duration **two hours**.
+1. Change the duration to **two hours**.
+
+   > [!NOTE]
+   > If you can't change the duration of **Voice Customer Support** in the **Activity Itinerary**, update the activity's default duration instead:
+   >
+   > 1. Go to **Copilot Service admin center**.
+   > 2. In the Workforce Management settings, select **Manage** next to **Shift activity types**, then open **Voice Customer Support** from the activities list.
+   > 3. Change the duration to **2 hours**, and then select **Save & Close**.
+   > 4. Return to the Shift Plan, delete the existing **Voice Customer Support** activity, and then select **Add activity** > **Voice Customer Support**.
 
 1. Your completed shift plan should resemble the image below.
 
@@ -1229,12 +1238,13 @@ In this task, you'll manually schedule customer service representatives into the
 ### Success criteria
 - Representatives are successfully scheduled into the shift plan and bookings appear on the schedule board as expected.
 
-###Key steps
-1. On the shift plan page, on the command bar, select **Schedule people**.
+### Key steps
+
+1. On the shift plan page, on the command bar, select **Schedule workforce**.
 
     ![image-6.png](Media/image-6.png)
 
-1. On the command bar that appears at the bottom of the page, select **All**.
+1. In the people list filter, select **All**.
 
     ![image-23.png](Media/image-23.png)
 
@@ -1242,7 +1252,7 @@ In this task, you'll manually schedule customer service representatives into the
 
     ![image-40.png](Media/image-40.png)
 
-1. Select **Add**.
+1. Select **Add** > **Add agents to schedule**.
 
 1. Set **Add to entire shift plan** to **On**. 
 
@@ -1250,8 +1260,7 @@ In this task, you'll manually schedule customer service representatives into the
 
     ![image-26.png](Media/image-26.png)
 
-
-1. On the shift plan page, on the command bar, select **Schedule people**.
+1. On the shift plan page, on the command bar, select **Schedule workforce**.
 
     ![image-6.png](Media/image-6.png)
 
@@ -1259,18 +1268,18 @@ In this task, you'll manually schedule customer service representatives into the
 
     ![image-23.png](Media/image-23.png)
 
-1. Select **Enrico Cattaneo** and then select **Add**.
+1. Select **Alex Baker** and then select **Add** > **Add agents to schedule**.
 
 1. Set **Add to entire shift plan** to **Off**. 
 
 1. Configure the fields as follows:
 
-    - **Start date:** 9/15/2025
-    - **End date:** 9/26/2025
+    - **Start date:** 15th of the current month (e.g., 10/15/2026)
+    - **End date:** 26th of the current month (e.g., 10/26/2026)
 
     ![image-53.png](Media/image-53.png)
 
-1. Select **Save**. After a short period of time, your new bookings will appear in the shift plan.
+1. Select **Save**. After a short period of time, your new bookings will appear in the shift plan. Change the date range if needed to view the new bookings.
 
     ![image-13.png](Media/image-13.png)
 
@@ -1288,8 +1297,9 @@ In this task, you'll add an extra shift booking for a representative by insertin
 ### Success criteria
 - Additional shift bookings are created for the selected representative and display correctly on the schedule board.
 
-###Key steps
-1. Open the **Sept Shift plan** calendar.
+### Key steps
+
+1. Open the **October Shift plan** calendar.
 
 1. At the top of the **Calendar**, select the **Date** selector.
 
@@ -1297,7 +1307,7 @@ In this task, you'll add an extra shift booking for a representative by insertin
 
 1. Select the **29th**.
 
-1. Go to the **10: AM** time slot for Enrico.
+1. Go to the **10:00 AM** time slot for Alex.
 
 1. Right-click the time slot and then select **Add Shift Booking**.
 
@@ -1305,8 +1315,8 @@ In this task, you'll add an extra shift booking for a representative by insertin
 
 1. Configure the fields as follows:
 
-    - **Staff member**: Enrico (Or Similar)
-    - **Date:** The 29th of the current month - Ex. 9.29.2025
+    - **Staff member**: Alex Baker (or similar)
+    - **Date:** The 29th of the current month - Ex. 10.29.2026
     - **Type:** Chat Customer Support
     - **Start Time:** 10:00 AM
     - **End time:** 11:30 AM
@@ -1315,7 +1325,7 @@ In this task, you'll add an extra shift booking for a representative by insertin
 
 1. Select **Save**.
 
-1. Go to the **12:00 PM** time slot for Enrico.
+1. Go to the **12:00 PM** time slot for Alex.
 
 1. Right-click the time slot and then select **Add Shift Booking**.
 
@@ -1323,8 +1333,8 @@ In this task, you'll add an extra shift booking for a representative by insertin
 
 1. Configure the fields as follows:
 
-    - **Staff member**: Enrico
-    - **Date:** 9.29.2025
+    - **Staff member**: Alex Baker
+    - **Date:** 10.29.2026
     - **Type:** Training
     - **Start Time:** 12:00 PM
     - **End time:** 12:30 PM
@@ -1345,7 +1355,7 @@ Supervisors need the ability to correct scheduling changes quickly, whether it's
 In this task, you'll edit an existing shift booking to update its time and then delete a booking to demonstrate schedule maintenance.
 
 ### Success criteria
-- A shift booking is successfully edited and then deleted, with the schedule board reflecting both changes
+- A shift booking is successfully edited and then deleted, with the schedule board reflecting both changes.
 
 ###Key steps
 1. On the schedule board, right-click the **Training** booking you just created.
@@ -1354,7 +1364,7 @@ In this task, you'll edit an existing shift booking to update its time and then 
 
 1. Edit the fields as follows:
 
-    - **Staff member**: Enrico
+    - **Staff member**: Alex Baker
     - **Date:** the 29th of the current month - Ex: 9.29.2025
     - **Type:** Training
     - **Start Time:** 12:30 PM
@@ -1379,14 +1389,22 @@ In this task, you'll publish the shift plan so bookings are released for downstr
 ### Success criteria
 The shift plan is published successfully, and the bookings are available as published schedule items.
 
-###Key steps
+### Key steps
+
 1. On the schedule board for the shift plan, select **Publish**. 
 
-    >[!note] **NOTE:** If you have items that span multiple months, you'll be asked to provide the month that you want to publish.
+   > [!NOTE]
+   > If you have items that span multiple months, you'll be asked to provide the month that you want to publish.
+
+1. In the **Send bookings to agents** dialog, set the **Start date** to the first day of the current month and the **End date** to the last day of the current month.
+
+   > [!NOTE]
+   > The dialog displays the number of bookings in the selected date range. Agents with unpublished bookings in that range will be notified and need to accept them.
 
 1. Select **Continue**.
 
-	>[!Note] You'll need to repeat this step for each month for the shift plan.
+   > [!NOTE] 
+   > You'll need to repeat this step for each month for the shift plan.
 
 ===
 
@@ -1396,13 +1414,14 @@ The shift plan is published successfully, and the bookings are available as publ
 To ensure schedules appear promptly and consistently for agents, Contoso may need to bulk-confirm bookings so they reflect as accepted on calendars.
 
 ### Description
-In this task, you'll filter shift bookings for a specific resource, bulk edit them and update the booking status to Accepted.
+In this task, you'll filter shift bookings for a specific resource, bulk edit them, and update the booking status to Accepted.
 
 ### Success criteria
 - Shift bookings for the selected resource are updated to Accepted in bulk and reflect the new status.
 
-###Key steps
-1. In **Copilot Service workspace**, in the left pane, in the **Workforce management** group, select **Shift Bookings**.
+### Key steps
+
+1. In **Copilot Service workspace**, in the left navigation pane, in the **Workforce management** group, select **Shift Bookings**.
 
 	![zheoc921.jpg](Media/zheoc921.jpg)
 
@@ -1416,7 +1435,7 @@ In this task, you'll filter shift bookings for a specific resource, bulk edit th
 
 1. On the command bar, select **Edit**.
 
-1. In the **Booking Status** field, select **Accepted**.
+1. In the **Booking Status** field, select **Committed**.
 
     ![image-28.png](Media/image-28.png)
 
@@ -1433,9 +1452,9 @@ The business impact? Customer satisfaction has dropped, costs are rising, and ag
 
 ## Business Value Statements:
 
-These represent some example themes that should be part of your narrative. As you demo the functionality to your customer you should come back to these themes and reiterate them throughout you demo.
+These represent some example themes that should be part of your narrative. As you demo the functionality to your customer, you should come back to these themes and reiterate them throughout your demo.
 
-Here are some example business value statements you can use for your Dynamics 365 Contact Centers Workforce Management demo, tailored to the Contoso Coffee scenario:
+Here are some example business value statements you can use for your Dynamics 365 Contact Center Workforce Management demo, tailored to the Contoso Coffee scenario:
 
 ## Business Value Statements:
 
@@ -1457,7 +1476,7 @@ Here are some example business value statements you can use for your Dynamics 36
 
 - **Refer to our AI-Driven Scheduling & Shift Management which can:**
 
-    - Automatically match agent schedules to real-time demand. reducing overstaffing during slow periods and understaffing during peak times.
+    - Automatically match agent schedules to real-time demand, reducing overstaffing during slow periods and understaffing during peak times.
 
     - Streamline shift swaps, breaks, and overtime requests, minimizing manual errors and compliance risks.
 
@@ -1465,7 +1484,7 @@ Here are some example business value statements you can use for your Dynamics 36
 
     - Uses real-time analytics and forecasting to anticipate seasonal spikes and business growth, enabling proactive staffing decisions instead of reactive guesswork.
 
-- **Because of the complexities of their current solution call out our Unified Agent Experience which:**
+- **Because of the complexities of their current solution, call out our Unified Agent Experience, which:**
 
     - Provides a single pane of glass for agents and supervisors, eliminating tool overload and reducing time spent switching between platforms.
 
@@ -1496,7 +1515,7 @@ Take customers on a tour of the user interface.  Call out the available features
 ---
 
 #### View forecast reports
-For each scenario, the following details are displayed; Name, Current Status, Interval, Duration, Target entity, Last Run On, Recurrence time slot, Recurrence time zone
+For each scenario, the following details are displayed: Name, Current Status, Interval, Duration, Target entity, Last Run On, Recurrence time slot, and Recurrence time zone.
 
 1. Open the **Copilot Service workspace** app.
 
@@ -1504,7 +1523,8 @@ For each scenario, the following details are displayed; Name, Current Status, In
 
 1. Select the **Reports** tab.
 
->[!Note] When you first access the dashboard, any scenarios you configured appear in Draft status until the first trigger occurs. After that, the scenario shows as In progress until it completes. You should make sure that you have done this first.
+> [!NOTE]
+> When you first access the dashboard, any scenarios you configured appear in Draft status until the first trigger occurs. After that, the scenario shows as In progress until it completes. You should make sure that you have done this first.
 
 
 ---
@@ -1527,11 +1547,11 @@ Detailed view: You can filter the data in the following ways:
 
 #### View capacity plans
 
-1. Open Copilot **Service workspace**
+1. Open the **Copilot Service workspace** app.
 
-1. Using the navigation on the left, select **Capacity planning** under **Workforce Management**..
+1. In the left navigation, under **Workforce Management**, select **Capacity planning**.
 
-1. Select the plan you want to view from the list, and then select the **Reports** tab.
+1. Select the plan you want to view from the list, and then select the **View Output** tab.
 
 ---
 
@@ -1562,7 +1582,7 @@ For all the filters, you can use the drill up and down buttons to drill to speci
 
 #### View the calendar
 
-1. In the **Copilot Service workspace** app, schedule **Calendar** under **Workforce Management**.
+1. In the **Copilot Service workspace** app, select **Schedule Calendar** under **Workforce Management**.
 
 1. Use the top-right menu to change the view to Agenda, Day, Week, or Month.
 
@@ -1570,25 +1590,30 @@ For all the filters, you can use the drill up and down buttons to drill to speci
 
     ![image-56.png](Media/image-56.png)
 
+   > [!NOTE] 
+   > If Schedule Calendar opens to a blank page and the view options aren't available, skip the remaining steps in this section and continue to **Use auto scheduling**.
+
 ---
 
 #### Use auto scheduling
 
 1. Using the navigation on the left, select **Shift planning** under **Workforce Management.**
 
-1. Select the shift plan you want to use to book the representatives, and then select Schedule people on the task bar. The shift scheduler board appears.
+1. Select the shift plan you want to use to book the representatives, and then select **Schedule workforce** on the task bar. The shift scheduler board appears.
 
-1. Select the **Schedule** dropdown menu, and then select **Auto-Schedule**. The **Auto-Schedule Criteria** pane appears.
+1. Select **Schedule**. The **Schedule** pane appears.
 
 1. For **Duration**, select the start and end dates for the activity.
 
-1. Set the filters for **Agent availability**, Match **Skills**, and **Match Queue** as required.
+1. Toggle on the filters for **Agent availability**, **Match Skills**, and **Match Queue**.
 
-1. Set the availability order to either Most Available to Least or Least Available to Most.
+1. Set the availability order to either **Most Available to Least** or **Least Available to Most**.
 
 1. Select **Schedule**. The schedule board updates and populates the activities for the agents in the activity itinerary.
 
 1. Select **Publish**.
+
+1. In the **Send bookings to agents** dialog, select a **Start date** and **End date** for the bookings you want to send, and then select **Continue**.
 
 ---
 
@@ -1596,42 +1621,48 @@ For all the filters, you can use the drill up and down buttons to drill to speci
 
 1. In the site map of **Copilot Service workspace**, select **Request Management** under **Workforce Management**.
 
-1. Select **New**, and then select **Shift Bid**.
+1. Select **+ New**, and then select **Shift Bid**.
 
 1. On the **Shift Plan To Bid** card, select the shift plan you want to bid on.
 
 1. Review the bid request details, and then select **Save**.
 
+> [!NOTE] 
+> If no shift plans are available for bidding, open the shift plan, select the Bid tab, set a Bid Expiration Date, change Released For Bid to Yes, and save the shift plan.
+
 ---
 
 #### Create a shift swap request
 
-1. In the site map of **Copilot Service workspace**, select **Request** Management under Workforce Management.
+1. In the site map of **Copilot Service workspace**, select **Request Management** under **Workforce Management**.
 
-1. Select New, and then select **Shift Swap** from the dropdown menu. The New WEM Request page appears.
+1. Select **+ New**, and then select **Shift Swap** from the dropdown menu. The **New WEM Request** page appears.
 
-1. On the Select shift card, enter the details as follows:
+1. On the **Select shift** card, enter the details as follows:
 
     - **Date:** Select the date for the shift you want to swap.
 
     - **Shift Plan:** Select the name of the plan you want to use for the swap.
 
-    - Full shift day: If you want the entire shift to be included in the swap, set Full shift day to Yes.
+    - **Full shift day:** If you want the entire shift to be included in the swap, set Full shift day to **Yes**.
 
-    - **Booking:** For a shift swap that doesn't include the entire shift, select the activity to swap. The form populates the Start Time and End Time for the booking and calculates the hours.
+    - **Booking:** For a shift swap that doesn't include the entire shift, select the activity to swap. The form populates the **Start Time** and **End Time** for the booking and calculates the **hours**.
 
     - **Note:** Type a note if desired.
 
-1. On the **Select shift to swap** card, then enter your **Availability date** and **Preferred time range** so that others know when you're available to swap a shift.
+1. On the **Select shift to swap** card, enter your **Availability date** and **Preferred time range** if available, so that others know when you're available to swap a shift.
 
 1. If you want the system to notify all representatives who meet your availability criteria, toggle on **Public Post**. If the setting is off, the system lists other representatives' available bookings that can be swapped, and then you can select the shift you want to use and complete the swap.
 
-=== 
->[!Alert] **IMPORTANT:** These labs are hosted on the Skillable platform. Completion data is collected and then exported to Success Factors every Monday. SF require another 1-3 days to process that data. The status for this lab will be visible in Viva and Learning Path next week. 
->
+===
+
+> [!WARNING]
+> These labs are hosted on the Skillable platform. Completion data is collected and then exported to Success Factors every Monday. SF requires another 1-3 days to process that data. The status for this lab will be visible in Viva and Learning Path next week.
+
 Be sure to select "**Submit**" in the bottom right corner to get credit for completing this lab. 
 
 @lab.ActivityGroup(completionsurvey)
 
->[!Alert] After answering the survey questions, select **submit** to complete and end the lab. **This is required in order to receive credit for lab completion**.
+> [!WARNING]
+> After answering the survey questions, select **submit** to complete and end the lab. **This is required in order to receive credit for lab completion**.
 
