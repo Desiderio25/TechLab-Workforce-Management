@@ -1654,6 +1654,8 @@ For all the filters, you can use the drill up and down buttons to drill to speci
 
 1. If you want the system to notify all representatives who meet your availability criteria, toggle on **Public Post**. If the setting is off, the system lists other representatives' available bookings that can be swapped, and then you can select the shift you want to use and complete the swap.
 
+1. Select **Save**.
+
 ===
 
 > [!WARNING]
